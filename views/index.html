@@ -1,0 +1,24 @@
+
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js'></script>
+<script src='https://code.angularjs.org/1.7.8/angular-route.js'></script>
+<script src='javascripts/index.js'></script>
+
+<body ng-app="myApp" ng-controller='ctrl'>
+<script>
+title='{{title}}'
+</script>
+{{title}}
+
+<p><a href="#/!">Main</a></p>
+
+<a href="#!red">Red</a>
+<a href="#!green">Green</a>
+<a href="#!blue">Blue</a>
+<button ng-click='say()'>sdf</button>
+<div ng-view></div>
+nombre: <% nombre %>
+<input type='text' ng-model=' nombre '>
+
+
+
+</body>
